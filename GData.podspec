@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                "writing data on the web. Many Google services provide a Google data API."
   s.homepage = 'https://code.google.com/p/gdata-objectivec-client'
   s.author   = { 'The Google Data APIs team' => 'https://code.google.com/p/gdata-objectivec-client' }
-  s.source   = { :svn => 'https://github.com/PaulTaykalo/GData.git'}
+  s.source   = { :git => 'https://github.com/PaulTaykalo/GData.git'}
 
   s.subspec 'XMLNode' do |gdxml|
     gdxml.source_files = 'Source/XMLSupport/*.{h,m}'
