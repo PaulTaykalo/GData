@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.subspec 'XMLNode' do |gdxml|
     gdxml.source_files = 'Source/XMLSupport/*.{h,m}'
     gdxml.libraries    = 'xml2'
-    gdxml.xcconfig     = { 'HEADER_SEARCH_PATHS' => '"$(SDKROOT)/usr/include/libxml2"' }
+    gdxml.xcconfig     = { 'HEADER_SEARCH_PATHS' => ['"$(SDKROOT)/usr/include/libxml2"','"/usr/include/libxml2"'] }
   end
 
 end
